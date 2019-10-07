@@ -23,11 +23,17 @@
     },
     "require": {
         "yiisoft/yii2": "~2",
-        "zelenin/rss-generator": "~2.1@stable"
+        "zelenin/rss-generator": "dev-itemCdata"
     },
     "autoload": {
         "psr-4": {
             "Zelenin\\yii\\extensions\\Rss\\": ""
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/chuprov-max/RSS-Generator"
+        }
+    ]
 }
